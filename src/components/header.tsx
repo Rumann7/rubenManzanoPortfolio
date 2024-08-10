@@ -29,7 +29,7 @@ export default function Header() {
               onMouseLeave={() => setHoveredLink(null)}
             >
               <Link
-                className="flex items-center justify-center px-3 py-3 hover:bg-green-300 dark:hover:bg-green-900 rounded-full transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+                className="flex items-center justify-center px-3 py-3 hover:bg-green-100 dark:hover:bg-green-900 rounded-full transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-green-500"
                 href={link.hash}
                 aria-label={link.name}
               >
@@ -40,7 +40,7 @@ export default function Header() {
               </Link>
               {hoveredLink === link.hash && (
                 <motion.span
-                  className="absolute top-full mt-2 text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 px-2 py-1 rounded"
+                  className="absolute top-full mt-2 text-[#04FB94] bg-white dark:bg-gray-800 px-2 py-1 rounded-full"
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -10 }}
