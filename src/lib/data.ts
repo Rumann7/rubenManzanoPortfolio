@@ -9,33 +9,33 @@ import {
 
 export const links = [
   {
-    name: "Home",
-    hash: "#home",
+    name: "Inicio",
+    hash: "#inicio",
     icon: faHome,
   },
   {
-    name: "About",
-    hash: "#about",
+    name: "Acerca",
+    hash: "#acerca-de",
     icon: faInfoCircle,
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: "Proyectos",
+    hash: "#proyectos",
     icon: faProjectDiagram,
   },
   {
-    name: "Skills",
-    hash: "#skills",
+    name: "Habilidades",
+    hash: "#habilidades",
     icon: faTools,
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Experiencia",
+    hash: "#experiencia",
     icon: faBriefcase,
   },
   {
-    name: "Contact",
-    hash: "#contact",
+    name: "Contacto",
+    hash: "#contacto",
     icon: faEnvelope,
   },
 ] as const;
